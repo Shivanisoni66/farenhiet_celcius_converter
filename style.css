@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Monserrate";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.converter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #63a0e7;
+}
+.converter h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+}
+.converter .structure{
+    width: 300px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f0eaea;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.structure input{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(89, 226, 89);
+    padding-left: 10px;
+    margin-left: 10px;
+}
